@@ -1,5 +1,5 @@
 Algoritmo "média-função"
-                        //Crie uma função que receba 2 números e usando uma função, mostre uma mensagem com a média destes dois
+                        //1-Crie uma função que receba 2 números e usando uma função, mostre uma mensagem com a média destes dois
                         //números informados.
                       
 var
