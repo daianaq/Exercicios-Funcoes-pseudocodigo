@@ -1,7 +1,7 @@
-algoritmo "operacoes"
-//Crie funções que receba 2 números e retorne a soma, subtração, divisão e a multiplicação
-// destes dois números informados.
-// Obs.: Crie uma função para cada operação.
+algoritmo "operaÃ§Ãµes-funÃ§Ã£o"
+//Crie funÃ§Ãµes que receba 2 nÃºmeros e retorne a soma, subtraÃ§Ã£o, divisÃ£o e a multiplicaÃ§Ã£o
+//destes dois nÃºmeros informados.
+//Obs.: Crie uma funÃ§Ã£o para cada operaÃ§Ã£o.
 
 var
    numeroUm, numeroDois: real
@@ -27,9 +27,9 @@ inicio
 fimfuncao
 
 inicio
-   escreva("Informe o primeiro número: ")
+   escreva("Informe o primeiro nÃºmero: ")
    leia(numeroUm)
-   escreva("Informe o segundo número: ")
+   escreva("Informe o segundo nÃºmero: ")
    leia(numeroDois)
 
    limpatela
