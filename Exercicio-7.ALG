@@ -1,4 +1,7 @@
 algoritmo "mediaAluno"
+//Escreva um programa que permita ler 2 notas de um aluno e:
+//-Informe por meio de uma função a média;
+//-Informe por meio de uma função se a média for maior ou igual a 7, o aluno estará aprovado, caso contrário, estará reprovado.
 
 var
    notaUm, notaDois, media: real
@@ -24,7 +27,7 @@ inicio
    media <- mediaDasNotas(notaUm, notaDois)
 
    limpatela
-   escreval("A m�dia �:", media)
+   escreval("A média é:", media)
    escreval("O aluno foi ",AprovadoOuReprovado(media))
 
 fimalgoritmo
