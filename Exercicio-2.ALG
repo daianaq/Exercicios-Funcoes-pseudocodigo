@@ -1,4 +1,5 @@
 algoritmo "positivoOuNegativo_funcao"
+                                     //2-Faça uma função que recebe um valor inteiro e verifica se o valor é positivo ou negativo.
 
 var
    numero: inteiro
@@ -12,17 +13,17 @@ inicio
       se n < 0 entao
          retorne "Negativo."
       senao
-         retorne "Neutro ou inv�lido."
+         retorne "Neutro ou inválido."
       fimse
    fimse
 fimfuncao
 
 inicio
-   escreva("Digite o n�mero: ")
+   escreva("Digite o número: ")
    leia(numero)
 
    resultado <- verificarNumero(numero)
 
-   escreval("O n�mero �: ", resultado)
+   escreval("O número é: ", resultado)
 
 fimalgoritmo
