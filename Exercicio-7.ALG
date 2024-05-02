@@ -1,8 +1,8 @@
-algoritmo "inflação"
-//Fazer um programa que solicita o preço de um produto e
-//inflaciona esse preço em 10% se ele for menor que 100 e
+algoritmo "inflacao"
+//7-Fazer um programa que solicita o preÃ§o de um produto e
+//inflaciona esse preÃ§o em 10% se ele for menor que 100 e
 //em 20% se ele for maior ou igual a 100.
-//Utilize uma função para obter o resultado solicitado.
+//Utilize uma funÃ§Ã£o para obter o resultado solicitado.
 
 var
    preco: real
@@ -21,11 +21,11 @@ inicio
 fimfuncao
 
 inicio
-   escreva("Informe o preço do produto: R$")
+   escreva("Informe o preÃ§o do produto: R$")
    leia(preco)
 
    limpatela
-   escreval("Preço do produto: R$",preco)
+   escreval("PreÃ§o do produto: R$",preco)
    escreval("Valor final: R$",inflacionar(preco))
 
 fimalgoritmo
