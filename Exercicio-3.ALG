@@ -1,5 +1,6 @@
-algoritmo "Exercicio-333333333333"
-
+algoritmo "Tabuada"
+                   //Faça um programa que imprime a tabuada de um número informado pelo usuário de 1 a 10 
+                   //utilizando uma função para exibir o resultado.                    
 var
    numero, i: inteiro
 
@@ -9,7 +10,7 @@ inicio
 fimfuncao
 
 inicio
-   escreva("Informe o n�mero da tabuada desejada: ")
+   escreva("Informe o número da tabuada desejada: ")
    leia(numero)
    
    limpatela
