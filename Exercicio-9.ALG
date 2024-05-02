@@ -1,6 +1,6 @@
-algoritmo "Idadee"
-//Escreva um programa que solicite ao usuário o ano de
-//nascimento e, utilizando uma função, retorne com a idade do usuário.
+algoritmo "calcularIdade"
+//9-Escreva um programa que solicite ao usuÃ¡rio o ano de
+//nascimento e, utilizando uma funÃ§Ã£o, retorne com a idade do usuÃ¡rio.
 
 const
    anoAtual = 2024
@@ -22,12 +22,12 @@ fimfuncao
 inicio
    escreva("Informe o dia do seu nascimento: ")
    leia(dia)
-   escreva("Informe o mês do seu nascimento: ")
+   escreva("Informe o mÃªs do seu nascimento: ")
    leia(mes)
    escreva("Informe o ano do seu nascimento: ")
    leia(ano)
 
    limpatela
-   escreval("Você tem", calcularIdade(ano, mes, dia), " anos.")
+   escreval("VocÃª tem", calcularIdade(ano, mes, dia), " anos.")
 
 fimalgoritmo
