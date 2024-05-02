@@ -1,6 +1,6 @@
-Algoritmo "média-função"
-                        //1-Crie uma função que receba 2 números e usando uma função, mostre uma mensagem com a média destes dois
-                        //números informados.
+algoritmo "média-função"
+//1-Crie uma função que receba 2 números e usando uma função, mostre uma mensagem com a média destes dois
+//números informados.
                       
 var
    primeiroNumero, segundoNumero, media: real
@@ -22,4 +22,4 @@ inicio
    media <- calcularMedia(primeiroNumero, segundoNumero)
    
    escreval("A média dos números é: ", media)
-Fimalgoritmo
+fimalgoritmo
