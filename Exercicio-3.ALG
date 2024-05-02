@@ -1,5 +1,5 @@
-algoritmo "Tabuada-função"
-//Faça um programa que imprime a tabuada de um número informado pelo usuário de 1 a 10 
+algoritmo "Tabuada"
+//3-Faça um programa que imprime a tabuada de um número informado pelo usuário de 1 a 10 
 //utilizando uma função para exibir o resultado.                    
 
 var
