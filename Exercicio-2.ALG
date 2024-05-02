@@ -1,5 +1,5 @@
-algoritmo "positivoOuNegativo_funcao"
-                                     //2-Faça uma função que recebe um valor inteiro e verifica se o valor é positivo ou negativo.
+algoritmo "positivoOuNegativo-funcao"
+//2-Faça uma função que recebe um valor inteiro e verifica se o valor é positivo ou negativo.
 
 var
    numero: inteiro
