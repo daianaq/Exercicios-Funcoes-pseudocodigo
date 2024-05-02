@@ -1,4 +1,4 @@
-algoritmo "positivoOuNegativo-funcao"
+algoritmo "positivoOuNegativo"
 //2-Faça uma função que recebe um valor inteiro e verifica se o valor é positivo ou negativo.
 
 var
