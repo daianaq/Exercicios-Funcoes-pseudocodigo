@@ -1,5 +1,5 @@
-algoritmo "operações-função"
-//Crie funções que receba 2 números e retorne a soma, subtração, divisão e a multiplicação
+algoritmo "operacoes"
+//4-Crie funções que receba 2 números e retorne a soma, subtração, divisão e a multiplicação
 //destes dois números informados.
 //Obs.: Crie uma função para cada operação.
 
