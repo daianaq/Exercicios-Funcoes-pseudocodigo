@@ -1,16 +1,14 @@
 Algoritmo "Exercicio-10"
-//10- Crie um programa que seja possível escolher quais dados de um aluno sejam
-//acessados, com base nas seguintes informações: nome, 3 notas e a média.
-//Verifique cada nota, impedindo que o programa continue caso a nota informada seja
-//maior que 10 ou menor que 0;
-//Mostre para o usuário o menu abaixo e usando funções, mostre o que se pede em cada
-//uma das opções.
-//[ 1 ] – Mostrar nome da disciplina e a média;
-//[ 2 ] – O nome da disciplina e a situação (aprovado, reprovado ou recuperação);
-//[ 3 ] – Exibir todas as informações;
-//[ 0 ] – Sair do programa.
+//10- Crie um programa que seja possÃ­vel escolher quais dados de um aluno sejam acessados, com base nas seguintes informaÃ§Ãµes: 
+//nome, 3 notas e a mÃ©dia.
+//Verifique cada nota, impedindo que o programa continue caso a nota informada seja maior que 10 ou menor que 0;
+//Mostre para o usuÃ¡rio o menu abaixo e usando funÃ§Ãµes, mostre o que se pede em cada uma das opÃ§Ãµes.
+//[ 1 ] â€“ Mostrar nome da disciplina e a mÃ©dia;
+//[ 2 ] â€“ O nome da disciplina e a situaÃ§Ã£o (aprovado, reprovado ou recuperaÃ§Ã£o);
+//[ 3 ] â€“ Exibir todas as informaÃ§Ãµes;
+//[ 0 ] â€“ Sair do programa.
 // Utilize o escolha-caso.
-// O programa irá parar apenas quando o usuário digitar o número zero.
+// O programa irÃ¡ parar apenas quando o usuÃ¡rio digitar o nÃºmero zero.
 
 Var
    disciplina: caractere
@@ -33,7 +31,7 @@ inicio
       retorne "Aprovado"
    senao
       se mediaDasNotas(soma) 5 entao
-         retorne "Em recuperação"
+         retorne "Em recuperaÃ§Ã£o"
       senao
          retorne "Reprovado"
       fimse
@@ -51,7 +49,7 @@ Inicio
    para i de 1 ate 3 faca
       repita
          limpatela
-         escreva(i, "ª nota do aluno: ")
+         escreva(i, "Âª nota do aluno: ")
          leia(notas)
          limpatela
       ate (notas >= 0) e (notas <= 10)
@@ -62,10 +60,10 @@ Inicio
       escreval(" ")
       escreval("MENU:")
       escreval(" ")
-      escreval("[1]– Mostrar o nome da disciplina e a média")
-      escreval("[2]– Mostrar o nome da disciplina e a situação escolar")
-      escreval("[3]– Exibir todas as informações;")
-      escreval("[0]– Sair do programa.")
+      escreval("[1]â€“ Mostrar o nome da disciplina e a mÃ©dia")
+      escreval("[2]â€“ Mostrar o nome da disciplina e a situaÃ§Ã£o escolar")
+      escreval("[3]â€“ Exibir todas as informaÃ§Ãµes;")
+      escreval("[0]â€“ Sair do programa.")
       escreval(" ")
       leia(opcao)
 
@@ -74,18 +72,18 @@ Inicio
       caso 1
          limpatela
          escreval(nomeDisciplina()+disciplina)
-         escreval("Média: ", mediaDasNotas(soma):1:1)
+         escreval("MÃ©dia: ", mediaDasNotas(soma):1:1)
 
       caso 2
          limpatela
          escreval(nomeDisciplina()+disciplina)
-         escreval("Situação: ", AprovadoOuReprovado(media))
+         escreval("SituaÃ§Ã£o: ", AprovadoOuReprovado(media))
 
       caso 3
          limpatela
          escreval(nomeDisciplina()+disciplina)
-         escreval("Média: ", mediaDasNotas(soma):1:1)
-         escreval("Situação: ", AprovadoOuReprovado(media))
+         escreval("MÃ©dia: ", mediaDasNotas(soma):1:1)
+         escreval("SituaÃ§Ã£o: ", AprovadoOuReprovado(media))
 
       fimescolha
 
